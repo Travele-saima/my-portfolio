@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .nav-link:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.hero-section {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .section-title {
+            margin: 40px 0;
+            text-align: center;
+        }
+        /*skills bar*/
+        .skills .progress{
+            height: 50px;
+            display: block;
+            background: none;
+        }
+        .skills .progress .skill{
+            padding: 10px 0;
+            margin: 0 0 6px 0;
+            text-transform: uppercase;
+            display: block;
+            font-weight: 600;
+            font-family: "poppins" sans-serif;
+            color: #050d18;
+        }
+        .skills .progress .skill .val{
+            float: right;
+            font-style: normal;
+        }
+        .skills .progress-bar-wrap{
+            background: #dce8f8;
+        }
+        .skills .progress-bar{
+            width: 1px;
+            height: 10px;
+            transition: 0.9s;
+            background-color: #149ddd;
+        }
+
+
+
+
+        /*'""""" facts section""""*/
+        .facts{
+            padding-bottom: 30px;
+        }
+        .facts .count-box{
+            padding: 30px;
+            width: 100%;
+        }
+        .facts .count-box{
+            display: block;
+            font-size: 24px;
+            color: #149ddd;
+            float:left;
+        }
+        .facts .count-box span{
+            font-size: 48px;
+            line-height: 40px;
+            display: block;
+            font-weight: 700;
+            color: #050d18;
+            margin-left: 60px;
+        }
+        .facts .count-box p{
+            padding: 15px 0 0 0;
+            margin: 0 0 0 60px;
+            font-family:"Raleway",sans-serif;
+            font-size: 14px;
+            color: #636e7e;
+        }
+        .facts .count-box a{
+            font-weight: 600;
+            display: block;
+            margin-top: 20px;
+            color: #50627a;
+            font-size: 15px;
+            font-family: "poppins",sans-serif;
+            transition: ease-in-out 0.3s;
+        }
+        .facts .count-box a:hover{
+            color: #1f5297;
+        }
+        /*""section general"""*/
+        section{
+            padding: 60px 0;
+            overflow: hidden;
+        }
+        .section-bg{
+            background: #f5f8fd;
+        }
+        .section-title{
+            padding-bottom: 30px;
+        }
+        .section-title h2{
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+            color: #173b6c;
+        }
+        /*after*/
+        .section-title h2::after{
+            content: "";
+            position: absolute;
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #149ddd;
+            bottom: 0;
+            top: 20;
+        }
